@@ -23,7 +23,7 @@ let number = 4;
 var guess;
 
 while (true) {
-  guess = parseInt(prompt("Please enter a number between 0 - 10")); // string ---> number
+  // guess = parseInt(prompt("Please enter a number between 0 - 10")); // string ---> number
 
   if (guess === number) {
     alert("You won the game");
