@@ -37,7 +37,7 @@
 for (x = 1; x <= 5; x++) {
   console.log("outer loop " + x);
 
-  for (y = 1; y <= 3; y++) {
+  for (y = 1; y <= 4; y++) {
     console.log("inner loop " + y);
   }
 }
