@@ -27,6 +27,7 @@ function Person(f, l, g) {
 }
 
 Person.prototype.showInfo = function () {
+  g;
   return `my name is: ${this.fname} ${this.lname}`;
 };
 
